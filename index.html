@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Inicio</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Descripción de la página">
+<meta name="keywords" content="palabras clave, servicios, salud auditiva">
+<meta name="author" content="Su nombre">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.equalheights.js"></script> 
+<script src="js/camera.js"></script>
+<script src="js/TMForm.js"></script>
+<script src="js/modal.js"></script>  
+<script src="js/bootstrap-filestyle.js"></script> 
+
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/wow/wow.js"></script>
+<script src="js/wow/device.min.js"></script>
+<script src="js/jquery.mobile.customized.min.js"></script>
+<script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+</script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Actualizar IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Descargar Internet Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Descargar Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Descargar Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Descargar Firefox" />
+        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Descargar Google Chrome" />
+      </map>
+  </div>
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header class="clearfix">
+    <div class="container">
+        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        <div class="box1 clearfix">
+            <div class="box2 clearfix">
+                <img src="img/call_girl.png" alt="">
+                <p>¿Necesita ayuda? Llame a nuestra línea de atención<br>al cliente para asesoría - <span>0800 368 0380</span></p>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+        <div class="container">
+            <ul class="nav sf-menu clearfix">
+                <li class="active"><a href="index.html">Inicio</a></li>
+                <li class="sub-menu"><a href="index-1.html">Sobre nosotros</a><span></span>
+                    <ul class="submenu">
+        				<li><a href="#">Historia</a></li>
+        				<li><a href="#">Noticias</a><span class="fa fa-angle-right"></span>
+                            <ul class="submenu">
+                                <li><a href="#">Últimas</a></li>
+                                <li><a href="#">Archivo</a></li>
+                              </ul> 
+                        </li>
+        				<li><a href="#">Testimonios</a></li>
+        			</ul>
+                </li>
+                <li><a href="index-2.html">Servicios</a></li>
+                <li><a href="index-3.html">Blog</a></li>
+                <li><a href="index-4.html">Contactos</a></li>
+            </ul>
+            <form id="search" class="search" action="search.php" method="GET" accept-charset="utf-8">
+                <input type="text" name="s" value="" onfocus="if (this.value == '') {this.value=''}" onblur="if (this.value == '') {this.value=''}">
+                <a href="#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
+            </form><br>
+            <ul class="follow_icon">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+                <li><a href="#" class="fa fa-rss"></a></li>
+                <li><a href="#" class="fa fa-pinterest"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="slider">  
+    <div class="camera_wrap">
+        <div data-src="img/picture1.jpg"><div class="camera-caption fadeIn"><p class="title">Tratando el espectro completo<br>de trastornos auditivos</p></div></div>
+        <div data-src="img/picture2.jpg"><div class="camera-caption fadeIn"><p class="title">¡Reabriremos<br>el mundo de los sonidos para usted!</p></div></div>
+        <div data-src="img/picture3.jpg"><div class="camera-caption fadeIn"><p class="title">Ayudando con todo tipo<br>de problemas auditivos</p></div></div>
+    </div>
+</div>
+<!--content-->
+<div class="content"> 
+    <div class="thumb-box1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 wow fadeInUp">
+                    <p class="title">Ayudándole a escuchar mejor</p>
+                    <p>Hemos ganado una reputación por poder proporcionar a los pacientes casi todos los tipos de instrumentos y servicios para la pérdida auditiva a un precio razonable. Si no encuentra el producto exacto para la pérdida auditiva que está buscando, háganoslo saber y haremos todo lo posible para satisfacer sus necesidades.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="#" class="btn-default btn1">Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box2">
+        <div class="container">
+            <p class="title wow fadeInLeft">Nuestro asesoramiento profesional</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <strong><img src="img/page1_icon1.png" alt=""></strong>
+                            <div class="caption">
+                                <p class="description">Asesoría experta</p>
+                                <p>Ofrecemos asesoría experta en la selección de dispositivos auditivos y soluciones personalizadas para cada paciente.</p>
+                                <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <strong><img src="img/page1_icon1.png" alt=""></strong>
+                            <div class="caption">
+                                <p class="description">Tecnología avanzada</p>
+                                <p>Utilizamos tecnología de vanguardia para ofrecer soluciones auditivas efectivas y cómodas.</p>
+                                <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="thumb-pad1">
+                        <div class="thumbnail">
+                            <strong><img src="img/page1_icon1.png" alt=""></strong>
+                            <div class="caption">
+                                <p class="description">Atención personalizada</p>
+                                <p>Nuestro equipo se dedica a brindar atención personalizada a cada uno de nuestros pacientes.</p>
+                                <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="thumb-box3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="thumb-pad2 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_pic1.jpg" alt=""></figure>
+                            <div class="caption">
+                                <p class="title">Soluciones auditivas</p>
+                                <p>Ofrecemos una variedad de soluciones auditivas adaptadas a sus necesidades.</p>
+                                <a href="#"><img src="img/more_arrow1.png" alt=""></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="thumb-pad2 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_pic2.jpg" alt=""></figure>
+                            <div class="caption">
+                                <p class="title">Asesoría gratuita</p>
+                                <p>Proporcionamos asesoría gratuita para ayudarle a elegir el dispositivo adecuado.</p>
+                                <a href="#"><img src="img/more_arrow1.png" alt=""></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInLeft">
+                    <div class="thumb-pad2 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_pic3.jpg" alt=""></figure>
+                            <div class="caption">
+                                <p class="title">Compromiso con la calidad</p>
+                                <p>Nos comprometemos a ofrecer productos de la más alta calidad para nuestros pacientes.</p>
+                                <a href="#"><img src="img/more_arrow1.png" alt=""></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <div class="thumb-box4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-6 wow fadeInUp">
+                    <p class="title"><img src="img/title_icon1.png" alt="">Nuestra Misión</p>
+                    <h3>Comprometidos con su salud auditiva</h3>
+                    <p>Nos dedicamos a mejorar la calidad de vida de nuestros pacientes a través de soluciones auditivas efectivas y accesibles. Nuestro objetivo es garantizar que cada persona pueda disfrutar de una vida plena y activa.</p>
+                    <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6 col-lg-offset-1 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="title"><img src="img/title_icon2.png" alt="">Consulta</p>
+                    <h3>Atención personalizada</h3>
+                    <p>Ofrecemos consultas personalizadas para evaluar sus necesidades auditivas y recomendar las mejores soluciones disponibles.</p>
+                    <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 wow fadeInUp">
+                    <p class="title">Prevención de la pérdida auditiva</p>
+                    <p>Es fundamental cuidar de nuestra salud auditiva. Ofrecemos programas de prevención y educación para ayudar a nuestros pacientes a mantener una buena salud auditiva a lo largo de sus vidas.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="#" class="btn-default btn1">Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <figure><a href="#"><img src="img/page1_logo1.png" alt=""></a></figure>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <figure><a href="#"><img src="img/page1_logo2.png" alt=""></a></figure>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <figure><a href="#"><img src="img/page1_logo3.png" alt=""></a></figure>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <figure><a href="#"><img src="img/page1_logo4.png" alt=""></a></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box7">
+        <div class="container">
+            <p class="title wow fadeInLeft">Contacto Rápido</p>
+            <div class="contactForm2">
+                <form id="contact-form">
+                      <div class="contact-form-loader"></div>
+                      <div class="row">
+                          <fieldset>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <label class="message form-div-4">
+                                  <textarea name="message" placeholder="Su Mensaje" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                                  <span class="empty-message">*Este campo es obligatorio.</span>
+                                  <span class="error-message">*El mensaje es demasiado corto.</span>
+                                </label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="box">
+                                    <label class="name form-div-1">
+                                      <input type="text" name="name" placeholder="Su Nombre" value="" data-constraints="@Required @JustLetters"  />
+                                      <span class="empty-message">*Este campo es obligatorio.</span>
+                                      <span class="error-message">*Este no es un nombre válido.</span>
+                                    </label>
+                                    <label class="email form-div-2">
+                                      <input type="text" name="email" placeholder="Su Correo Electrónico" value="" data-constraints="@Required @Email" />
+                                      <span class="empty-message">*Este campo es obligatorio.</span>
+                                      <span class="error-message">*Este no es un correo válido.</span>
+                                    </label>
+                                    <div class="btns">
+                                        <a href="#" data-type="submit" class="btn-default btn3">Enviar el formulario</a>
+                                    </div>
+                                </div>
+                            </div>
+                          </fieldset> 
+                      </div>
+                      <div class="modal fade response-message">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h4 class="modal-title">Título del modal</h4>
+                            </div>
+                            <div class="modal-body">
+                              ¡Su mensaje ha sido enviado! Nos pondremos en contacto pronto.
+                            </div>      
+                          </div>
+                        </div>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                    <div class="thumb-pad3-1">
+                        <div class="thumbnail">
+                            <div class="box clearfix">
+                                <div>
+                                    <strong>23</strong>
+                                    <span>agosto</span>
+                                </div>
+                                <hr>
+                                <a href="#">Un nuevo enfoque en la salud auditiva.</a>
+                            </div>
+                            <div class="caption">
+                                <p>Con el compromiso de mejorar la calidad de vida de nuestros pacientes, ofrecemos soluciones auditivas personalizadas.</p>
+                            </div> 
+                            <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="thumb-pad3-1">
+                        <div class="thumbnail">
+                            <div class="box clearfix">
+                                <div>
+                                    <strong>14</strong>
+                                    <span>agosto</span>
+                                </div>
+                                <hr>
+                                <a href="#">Innovaciones en dispositivos auditivos.</a>
+                            </div>
+                            <div class="caption">
+                                <p>Descubra las últimas innovaciones en tecnología auditiva que mejoran la experiencia del usuario.</p>
+                            </div> 
+                            <a href="#" class="btn-default btn2">Leer más <i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 logo-box wow fadeInUp" data-wow-delay="0.2s">
+                    <figure><a href="#"><img src="img/logo2.png" alt=""></a></figure>
+                    <p>9870 St Vincent Place,<br>Glasgow, DC 45 Fr 45.<br><a href="#">contacto@demolink.org</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 indent maxheight2 wow fadeInUp">
+                <p class="title">Derechos de autor</p>
+                <p class="prev">&copy; <em id="copyright-year"></em> <a href="index-5.html">Política de Privacidad</a></p>
+                <ul class="follow_icon2">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-rss"></a></li>
+                    <li><a href="#" class="fa fa-pinterest"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 maxheight2 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="title">Enlaces Importantes</p>
+                <ul class="list1">
+                    <li><a href="#">Programa de Afiliados</a></li>
+                    <li><a href="#">Promociones Especiales</a></li>
+                    <li><a href="#">Boletín Informativo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 maxheight2 wow fadeInUp" data-wow-delay="0.2s">
+                <p class="title">Menú de Soporte</p>
+                <ul class="list1">
+                    <li><a href="#">¿Perdió su Contraseña?</a></li>
+                    <li><a href="#">¿Olvidó su Nombre de Usuario?</a></li>
+                    <li><a href="#">Su Membresía</a></li>
+                    <li><a href="#">Su Cuenta</a></li>
+                    <li><a href="#">Foro de Soporte</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 maxheight2 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="title">Sobre Nosotros</p>
+                <ul class="list1">
+                    <li><a href="#">Enfoque en el Cliente</a></li>
+                    <li><a href="#">Rendimiento</a></li>
+                    <li><a href="#">Innovación</a></li>
+                    <li><a href="#">Responsabilidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  <!-- {%FOOTER_LINK} -->
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
